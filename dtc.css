@@ -303,23 +303,23 @@ a:focus {
 }
 
 .impress-enabled #webmaster-answers {
-    opacity: 0;
+    opacity: 1;
     -webkit-transition: opacity 1s;
     -moz-transition:    opacity 1s;
     -ms-transition:     opacity 1s;
     -o-transition:      opacity 1s;
     transition:         opacity 1s;
 }
-.impress-enabled #webmaster-answers.present {
-    opacity: 1;
+.impress-enabled #webmaster-answers.future {
+    opacity: 0;
 }
 
 #brand-guide h1 {
     font-size: 80px;
 }
 
-#distinguished-officers > img {
-    padding: 2px;
-    width: 49%;
+#distinguished-officers a img {
+    padding: 3px;
+    width: 48%;
     height: auto;
 }
