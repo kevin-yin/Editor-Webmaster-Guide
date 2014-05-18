@@ -59,7 +59,7 @@ table {
 }
 
 b, strong { font-weight: bold }
-i, em { font-style: italic }}
+i, em { font-style: italic }
 
 /* Failback Support */
 .fallback-message {
@@ -281,7 +281,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 20px;
 }
 
-#webmaster-answers {
+.impress-enabled #webmaster-answers {
     opacity: 0;
     -webkit-transition: opacity 1s;
     -moz-transition:    opacity 1s;
@@ -289,7 +289,7 @@ h1, h2, h3, h4, h5, h6 {
     -o-transition:      opacity 1s;
     transition:         opacity 1s;
 }
-#webmaster-answers.present {
+.impress-enabled #webmaster-answers.present {
     opacity: 1;
 }
 
